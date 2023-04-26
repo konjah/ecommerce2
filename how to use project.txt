@@ -1,0 +1,86 @@
+============================================================================================================================================
+=============================================================Back_end_Ecommer===============================================================
+============================================================================================================================================
+
+  ========================================================= project link========================================================
+
+
+============================================================install project=================================================================
+1-After Download project
+2-open termnail and write
+3-composer install
+4-copy .env.example .env
+5-create table in local host
+6-open .env file and change the database name
+7-php artisan key:generate
+8-php artisan migrate
+9-npm i
+10-npm run dev
+==========================================================================================================================================
+                                                     replace something in file .env
+
+
+MAIL_MAILER=smtp
+MAIL_HOST=mailpit
+MAIL_PORT=1025
+MAIL_USERNAME=null                  ===========================>
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="hello@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
+*****************change it************
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=33942d3f9cdcbc
+MAIL_PASSWORD=394d324829152b
+MAIL_ENCRYPTION=tls
+
+This part using to verify any gmail account
+
+==========================================================================================================================================
+
+Add to .env file
+
+STRIPE_KEY=pk_test_51My3y4ImNuXpGVdLWsE4WSIMEonZdHhHJArPZOtBYbXIS9rFnHZHC9NLTMIYLkOYHyFYG0DkwI3Z6VmCwd9kkDxF00ushuGmbd
+STRIPE_SECRET=sk_test_51My3y4ImNuXpGVdL2oJ3AtrwCYzviau9LUQwdTNL1oyZ3KjmuS5naWWFjAmjEGc3RnwCiqmw41kFqLjKEMPS5FSB0098m2E4a8
+
+===========================================================================================================================================
+to login and register using Jetstream
+and using strip for payment
+and using another template from " https://themewagon.com/themes/famms-free-responsive-bootstrap-4-e-commerce-website-template/  "
+
+===============================================================Accounts===========================================================================
+==================================================================================================================================================
+Stripe (Follow payment)
+https://stripe.com/
+
+Name: Test
+
+Number: 4242 4242 4242 4242
+
+CSV: 123
+
+Expiration Month: 12
+
+Expiration Year: 2026
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
